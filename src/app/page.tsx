@@ -52,10 +52,16 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-r from-pink-200 to-purple-200 flex flex-col items-center justify-center overflow-hidden">
       {/* Main text */}
-      <div className={`mt-20 transform transition-all duration-1000`}>
-        <h1 className="text-6xl font-bold text-pink-600 p-4 mb-8">
+      <div className={`mt-20 transform transition-all duration-1000 text-center flex items-center justify-center flex-col px-10`}>
+        <h1 className="text-6xl font-bold text-pink-600 p-4 mb-4">
           Happy Birthday! 🎉
         </h1>
+        <h2 className="text-2xl text-gray-800 mb-4">
+          My beloved best friend, Niar ❤️
+        </h2>
+        <p className="w-1/2 text-lg text-gray-600 mb-8">
+          Thank you yaah sudah mau jadi shbt aq 🥰 mkazih sudah mau meladenin gabut-gabut akuuu, maaf sering ke kosmu alias rumah ketigaku HEHE (aku akan lebih sering lagi hehe) MILOVUUU u deserve the whole world bubbb ❤️
+        </p>
       </div>
 
       {/* PhotoBooth */}
@@ -83,6 +89,13 @@ export default function Home() {
             />
           </div>
         )}
+      </div>
+
+      {/* make text center */}
+      <div className={`mt-20 transform transition-all duration-1000`}>
+        <h1 className="text-6xl font-bold text-pink-600 p-4 mb-8">
+          Make a Wish! 🎂
+        </h1>
       </div>
 
       {/* Cake */}
